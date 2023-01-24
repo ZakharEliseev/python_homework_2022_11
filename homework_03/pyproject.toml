@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "homework-03"
+version = "0.1.0"
+description = "homework3_docker_poetry"
+authors = ["ZakharEliseev <63101158+ZakharEliseev@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "homework_03"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "0.89.1"
+uvicorn = {extras = ["standart"], version = "^0.20.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
