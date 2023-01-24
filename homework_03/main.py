@@ -8,3 +8,4 @@ app.include_router(ping_router)
 async def root():
     ping = 'http://0.0.0.0:8000/ping/'
     return ping
+
