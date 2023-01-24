@@ -5,5 +5,5 @@ router = APIRouter(prefix='/ping')
 
 
 @router.get("/")
-async def ping():
+def ping():
     return {"message": "pong"}
